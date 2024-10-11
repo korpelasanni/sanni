@@ -1,0 +1,455 @@
+div {
+    border: 1px;
+    border-color:darkmagenta;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #6b4c6e;
+  }
+
+header {
+    background-image: url("tausta1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 50px 0 0 0;
+    width: 100%;
+    position: relative;
+}
+header h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    padding: 150px 10px 150px 10px;  
+}
+p, div, span, h1, h2, h3, h4, h5, h6 {
+    border: none;
+    border-color: transparent;
+    border-style: none;
+}
+
+footer {
+    background-color: rgb(127, 104, 147);
+    margin: 0;
+    padding: 50px 50px 80px 80px;
+    width: 100%;
+    position: relative;
+    background-size: contain;
+}
+
+footer p {
+    color: black;
+    text-align: left;
+    margin: 0px; }
+
+    #index-page .row {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 200px;
+        margin-bottom: 80px;
+    }
+
+    .column {
+        flex: 0 0 40%;
+        margin-right: 20px;
+    }
+    #index-page img {
+        height: auto;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    #index-page h2 {
+        font-size: 40px;
+        width: auto;
+        text-align: left;
+        position: relative;
+        margin-left: 5px;
+
+    }
+    #index-page p {
+        font-size: 24px;
+        margin: 0;
+        text-align: left;
+        line-height: 1.5;
+        margin-left: 5px;
+    }
+    #index-page footer p {
+        color: black
+        text-align: left;
+        margin: 0px; 
+    }
+
+    #about-page .row {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 200px;
+        
+    }
+    .column {
+        flex: 0 0 60%;
+        margin-right: 20px;
+        padding: 10px 10px 20px 120px;
+    }
+    .colum:last-child {
+        flex: 0 0 45%;
+    }
+    #about-page .kuva {
+        height: auto;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    #about-page h2 {
+        font-size: 40px;
+        text-align: left !important;
+    }
+    #about-page p {
+        line-height: 1.5;
+        text-align: left !important;
+        width: 100%;
+        font-size: 24px;
+        margin-top: -10px;
+    }
+    #about-page footer p {
+        color: black
+        text-align: left;
+        margin: 0px; 
+    }
+
+    #portfolio-page section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 400px;
+        padding-bottom: 200px;
+    }
+    #portfolio-page h2 {
+        margin: 20px 0;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    #portfolio-page h3 {
+        color: rgb(140, 92, 138);
+        margin: 0 0 40px 0;
+        font-size: 60px;
+        text-align: left;
+    }
+    #portfolio-page p {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 24px;
+        margin-top: 30px
+    }
+    #portfolio-page footer {
+        background-color: rgb(127, 104, 147);
+        margin: 0;
+        padding: 50px 50px 80px 80px;
+        width: 100%;
+        position: relative;
+        background-size: contain;
+    }
+    #portfolio-page footer p {
+        color: black;
+        text-align: left;
+        margin: 0px
+        font-size: 22px
+     }
+    #contact-page section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 400px;
+        padding-bottom: 200px;
+    }
+    #contact-page h2 {
+        margin: 60px 0;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #contact-page p {
+        font-size: 24px;
+        text-align: center;
+        margin: 10px 0
+
+    }
+    #contact-page img { 
+        max-width: 500px;
+    }
+    #contact-page .quote {
+        margin-bottom: -100px;
+    }
+    #contact-page .quote p {
+        font-family: "Caveat", cursive;
+        font-size: 36px; 
+        color: rgb(140, 92, 138);
+        margin: 0;
+        padding: 0;
+    }
+    #contact-page footer {
+        background-color: rgb(127, 104, 147);
+        margin: 0;
+        padding: 50px 50px 80px 80px;
+        width: 100%;
+        position: relative;
+        background-size: contain;
+    }
+    #contact-page footer p {
+        color: black;
+        text-align: left;
+        margin: 0px; }
+
+
+        @media only screen and (max-width: 600px) {
+
+            body {
+                background-color: rgb(230, 214, 230); 
+                padding: 0px;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            .row {
+
+                display: block;
+                flex-wrap: wrap;
+                width: 100%;
+                margin: 0 auto;
+                box-sizing: border-box;
+                text-align: left;
+                padding: 0px;
+            }
+
+            footer {
+                background-color: rgb(127, 104, 147);
+                margin: 0;
+                padding: 50px 50px 60px 20px;
+                width: 100%;
+                position: relative;
+                background-size: contain;
+                box-sizing: border-box;
+            }
+
+                #about-page .row {
+                    padding: 0 10px;
+                }
+
+                #index-page .row
+                {
+                    padding: 0 10px;
+                }  
+            }
+
+            @media only screen and (max-width: 600px) {
+    #portfolio-page h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+        padding: 0px
+        text-align: left;
+        width: 100%;
+        box-sizing: border-box;
+        padding-right: 300px;
+        box-sizing: border-box;
+    }
+    #portfolio-page h3 {
+        font-size: 40px;
+        padding-right: 160px;
+    }
+    #portfolio-page p {
+        font-size: 22px;
+        margin-top: 20px;
+        padding: 0px;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 300px;
+    }
+    section {
+        padding: 0px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    #contact-page h2 {
+        padding-right: 300px;  
+    }
+    #contact-page p {
+        padding-right: 300px;
+    }
+    #contact-page img {
+        padding-right: 300px;
+    }
+    #contact-page .quote p {
+    padding-right: 300px;
+}
+
+#contact-page footer p {
+    white-space: normal; /* Pidä teksti yhdellä rivillä */
+    text-align: left;
+    margin: 0; /* Poista marginaalit */
+    padding:0px; /* Poista padding */
+    width: 100%; /* Varmista, että p-elementti täyttää koko leveydeltään */
+    max-width: 100%;
+    box-sizing: border-box; /* Ota padding mukaan leveyslaskentaan */
+    padding-left: 0;
+}
+#portfolio-page footer,
+#contact-page footer {
+    padding: 20px; /* Voit säätää tätä tarpeen mukaan */
+    margin: 0; /* Poistaa marginaalit */
+}
+    #portfolio-page footer,
+    #contact-page footer {
+            background-color: rgb(127, 104, 147);
+            margin: 0;
+            padding: 30px 50px 80px 20px;
+            width: 100%;
+            position: relative;
+            background-size: contain;
+            box-sizing: border-box;
+            line-height: 1.5;
+            font-size: 24px;
+        }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        body {
+            background-color: rgb(230, 214, 230); 
+            padding: 0px;
+            font-size: 16px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .row {
+            display: block;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 0 auto;
+            box-sizing: border-box;
+            text-align: left;
+            padding: 0 15px;
+        }
+        footer {
+            background-color: rgb(127, 104, 147);
+            margin: 0;
+            padding: 50px 50px 80px 20px;
+            width: 100%;
+            position: relative;
+            background-size: contain;
+            box-sizing: border-box;
+        }
+            #about-page .row {
+                padding: 0 10px;
+            }
+            #index-page .row
+            {
+                padding: 0 10px;
+            }
+            #portfolio-page .row
+            {
+                padding: 0 15px;
+                text-align: left;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                width: 100%;
+                margin: 0 auto;
+                box-sizing: border-box;
+            }
+            #contact-page .row
+            {
+                align-items: flex-start;
+                text-align: left;
+                width: 90%;
+                padding-right: 300px;
+            }
+        }
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+#portfolio-page h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#portfolio-page h3 {
+    font-size: 40px;
+    white-space: nowrap;
+}
+#portfolio-page p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+section {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+}
+
+
+        
+        @media only screen and (min-width: 1025px) {
+            li {
+                float: left;
+            }
+            section {
+                width: 55%;
+            }
+            body {
+              background-color: rgb(230, 214, 230) ;
+                }
+            }
+            footer {
+                background-color: rgb(127, 104, 147);
+                margin: 0;
+                padding: 50px 50px 80px 20px;
+                width: 100%;
+                position: relative;
+                background-size: contain;
+                box-sizing: border-box;
+                text-align: left;
+            }
+            footer p {
+                text-align: left;
+            }
+
+
+
+
